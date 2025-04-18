@@ -1,0 +1,64 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body styling */
+body {
+    background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: #2c3e50;
+}
+
+/* Heading style */
+h1 {
+    font-size: 2.8rem;
+    color: #340239;
+    text-shadow: 1px 1px 3px rgba(119, 3, 128, 0.91);
+    margin-bottom: 25px;
+}
+
+/* Button style */
+button {
+    background: #340239;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: #590561;
+    transform: scale(1.05);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.3);
+}
+
+/* Dog image styling */
+img {
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    max-height: 300px;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+
+img:hover {
+    transform: scale(1.02);
+}
